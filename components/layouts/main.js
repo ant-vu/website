@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Anthony Vu" />
         <meta name="author" content="vua11" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <title>Anthony Vu's Website</title>
+        <title>Anthony Vu&apos;s Website</title>
       </Head>
 
       <NavBar path={router.asPath} />
