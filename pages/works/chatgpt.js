@@ -16,6 +16,7 @@ const Work = () => (
       <Title>
         ChatGPT App <Badge>2023</Badge>
       </Title>
+      <WorkImage src="/images/chatgpt.png" alt="chatgpt" />
       <P>
       Implemented a fully-functioning ChatGPT application to test out the OpenAI API and learn how to take advantage of text/code completion, image generation, fine-tuning, and embeddings.
       </P>
@@ -41,8 +42,6 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/chatgpt.png" alt="chatgpt" />
     </Container>
   </Layout>
 )
