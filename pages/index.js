@@ -137,16 +137,6 @@ const Home = () => (
           </ListItem>
         </List>
       </Section>
-
-      <Section delay={0.4}>
-        <Box align="center" my={4}>
-          <NextLink href="https://github.com/vua11/website" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My source code
-            </Button>
-          </NextLink>
-        </Box>
-      </Section>
     </Container>
   </Layout>
 )
