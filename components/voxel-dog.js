@@ -24,7 +24,6 @@ const VoxelDog = () => {
     }
   }, [])
 
-  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     const { current: container } = refContainer
     if (container) {
@@ -49,8 +48,6 @@ const VoxelDog = () => {
         20 * Math.cos(0.2 * Math.PI)
       )
 
-      // 640 -> 240
-      // 8   -> 6
       const scale = scH * 0.005 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,

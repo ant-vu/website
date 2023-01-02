@@ -76,7 +76,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/vua11/"
+            href="https://github.com/vua11/chatgpt-app"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -101,16 +101,17 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/vua11/"
+                  target="_blank"
+                  href="https://github.com/vua11/chatgpt-app"
                 >
-                  View Source
+                  Source
                 </MenuItem>
               </MenuList>
             </Menu>

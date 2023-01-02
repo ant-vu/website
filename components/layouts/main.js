@@ -15,11 +15,11 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Anthony's homepage" />
+        <meta name="description" content="Anthony Vu's Website" />
         <meta name="author" content="Anthony Vu" />
         <meta name="author" content="vua11" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <title>Homepage - Anthony Vu</title>
+        <title>Anthony Vu's Website</title>
       </Head>
 
       <NavBar path={router.asPath} />
