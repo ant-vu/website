@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-2.0",
+  "name": "website",
   "version": "1.0.0",
-  "description": "Anthony's portfolio",
+  "description": "Anthony Vu's Website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",

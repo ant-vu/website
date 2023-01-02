@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Canada!
+        Hello, I&apos;m a full-stack developer based in Canada!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -72,21 +72,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
-          Anthony is a{' '}
-          <NextLink href="https://schulichleaders.com/" passHref>
-            <Link target="_blank">Schulich Leader</Link>
-          </NextLink>
-          {' '}and Level III Computer Science Co-op undergraduate at McMaster University. 
-          Based in Hamilton, he has a knack for all things launching products, from 
-          planning and designing all the way to solving real-life problems with code.
+          Anthony is a third-year Computer Science co-op student at McMaster University with a 3.99 GPA. He is currently open to four-month internships for summer 2023 and new grad positions for summer 2024.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My projects
             </Button>
           </NextLink>
         </Box>
@@ -94,42 +88,33 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Experience
         </Heading>
         <BioSection>
-          <BioYear>2002</BioYear>
-          Born in Hamilton, Canada.
+          <BioYear>2022</BioYear>
+          Software Engineer Intern at BDO Canada.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Worked at McMaster University as a Research Assistant.
+          Research Assistant at McMaster University.
         </BioSection>
         <BioSection>
-          <BioYear>2022</BioYear>
-          Worked at BDO as a Full Stack Developer.
+          <BioYear>2020</BioYear>
+          Software Engineer Intern at lleTTonna.
         </BioSection>
         <BioSection>
-          <BioYear>2023 to future</BioYear>
-          Working with &quot;you&quot; as a Software Engineer.
+          <BioYear>2019</BioYear>
+          CTO at Memofood.
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Art, Drawing, Music, Photography, Playing Bass, ...
-        </Paragraph>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
+          Links
         </Heading>
         <List>
         <ListItem>
-            <Link href="https://www.linkedin.com/in/vua11/" target="_blank">
+            <Link href="https://www.linkedin.com/in/vua11" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -140,7 +125,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://github.com/vua11/" target="_blank">
+            <Link href="https://github.com/vua11" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -151,7 +136,16 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.4}>
+        <Box align="center" my={4}>
+          <NextLink href="https://github.com/vua11/website" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My source code
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
     </Container>
   </Layout>
